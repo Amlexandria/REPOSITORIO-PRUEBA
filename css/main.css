@@ -1,0 +1,288 @@
+/*Reset*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-image: url("../assets/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+
+
+/*BARRA DE NAVECIÓN PRINCIPAL*/
+nav.principal {
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(3, 169, 244,.7);
+  box-sizing: border-box;
+  padding: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.boards-button {
+  background-color: #A9CCE3;
+  box-sizing: border-box;
+  border-radius: .5rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: .9rem 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: .4rem;
+}
+
+.boards-button:hover{
+  background-color: #76D7C4;
+}
+
+button.boards-button i.icon-boards {
+ margin-right: 1rem;
+ font-size: 15pt;
+ font-weight: normal;
+}
+
+nav.principal input {
+  background-color: #A9CCE3;
+  box-sizing: border-box;
+  border-radius: .5rem;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  width: 22rem;
+  padding: 1rem 1.5rem;
+  background-image: url(../assets/images/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 10%center;
+  padding-left: 10px;
+}
+
+nav.principal input:hover {
+  background-color: #AED6F1;
+}
+
+.logo {
+  position: absolute;
+  padding: 1.3rem;
+  left: 60rem;
+  top: 0rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+a.logo img {
+  width: 100%;
+  opacity: .7;
+}
+
+.icons {
+  box-sizing: border-box;
+  padding-top: 1rem;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+
+.icons a {
+  display: inline-block;
+  color: white;
+  font-size: 12pt;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #A9CCE3;
+  border-radius: .5rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  margin-left: .2rem;
+  margin-right: .2rem;
+  text-align: center;
+}
+
+.icons a:hover {
+  background-color: #76D7C4;
+}
+
+a#user-name {
+  border-radius: 10rem;
+  text-decoration: none;
+}
+
+/*MAIN*/
+main {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+
+/*BARRA DE NAVEGACION INTERNA*/
+nav#nav-interno {
+  width: 50rem;
+  height: 6rem;
+  box-sizing: border-box;
+  position: relative;
+  top: 1rem;
+  padding: 1rem;
+}
+
+nav#nav-interno a{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(93, 173, 226, .7);
+  border-radius: .5rem;
+  margin-right: .3rem;
+  padding: 1rem;
+}
+
+nav#nav-interno a:hover{
+  background-color: #45B39D;
+}
+
+/*SECCION CONTENEDORA DE VERSIONES*/
+section#contenedorDeVersiones {
+  width: 100%;
+  position: relative;
+  top: 50rem;
+}
+
+.margin1rem {
+  margin: 1rem;
+}
+
+div#add-a-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: #DEE0E2;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.width-list-elements {
+  box-sizing: border-box;
+  display: block;
+  width: 25rem;
+  border-radius: .5rem;
+}
+
+.text-list {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+
+/*FORM "ADD A LIST"*/
+form {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(23, 32, 42, .9);
+}
+
+form div{
+  padding: .5rem;
+}
+
+form div:nth-last-child(1){
+  padding-top: 0;
+}
+
+form input#name-list {
+  width: 22.9rem;
+  margin: 0;
+  padding: .5rem;
+  border: none;
+  outline: 2px solid #B0BEC5;
+  background-color: rgba(144, 164, 174,.2);
+}
+
+/*DIV NAME LIST*/
+div#div-of-the-List {
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 2px 2px 5px rgba(23, 32, 42, .9);
+}
+
+div#div-of-the-List p {
+  margin: 0;
+  font-weight: bold;
+}
+
+div#div1ofTheList {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+a#add-a-card {
+  padding: 1rem;
+}
+
+a#add-a-card:hover {
+  background-color: #B0BEC5;
+  text-decoration: underline;
+}
+
+/* ADD A CARD*/
+.text-area {
+  box-sizing: border-box;
+  width: 23rem;
+  margin-left: 1rem;
+  border: none;
+  border-radius: .4rem;
+  padding: .7rem;
+  outline: none;
+  height: auto;
+  word-wrap: break-word;
+}
+
+button#add-button {
+  margin-left: 1rem;
+  margin-top: .5rem;
+}
+
+.div-card-text-area {
+  background-color: white;
+  margin-bottom: .9rem;
+}
+
+
+/*ENLACES*/
+
+a#to-add-a-list {
+  background-color: rgba(36, 113, 163,.5);
+  color: #D5DBDB;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+a#to-add-a-list:hover {
+  background-color: rgba(31, 97, 141,1);
+}
+
+
+
+/*BOTONES*/
+div button.button {
+  background-color: #8BC34A;
+  box-sizing: border-box;
+  padding: .9rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: .5rem;
+  border: none;
+  font-weight: bold;
+  outline: none;
+}
+
+button.button:hover{
+  background-color: #689F38;
+}

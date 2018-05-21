@@ -4,10 +4,7 @@ html {
 }
 
 body {
-  margin: 0;
-  background-image: url("../assets/images/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: blue;
   z-index: 5;
 }
 
